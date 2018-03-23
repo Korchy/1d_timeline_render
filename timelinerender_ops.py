@@ -18,6 +18,7 @@ class TimeLineRenderStart(bpy.types.Operator):
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
+        TimeLineRender.checktextblock(context)
         return {'FINISHED'}
 
 
