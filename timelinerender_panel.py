@@ -14,9 +14,9 @@ import bpy
 class TimeLineRenderPanel(bpy.types.Panel):
     bl_idname = 'timelinerender.panel'
     bl_label = 'TimeLineRender'
-    bl_space_type = 'PROPERTIES'
-    bl_region_type = 'WINDOW'
-    bl_context = 'render'
+    bl_space_type = 'VIEW_3D'
+    bl_region_type = 'TOOLS'
+    bl_category = '1D'
 
     def draw(self, context):
         self.layout.operator('timelinerender.start', icon='TIME', text='Start TimeLine Render')
