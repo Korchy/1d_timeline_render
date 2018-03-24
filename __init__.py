@@ -5,7 +5,7 @@
 #   https://github.com/Korchy/1d_timeline_render
 #
 # Version history:
-#   1.0. - Dev start
+#   1.0. - Render frames from the first line of the text block by numbers and diapasones
 
 bl_info = {
     'name': 'TimeLineRender',
