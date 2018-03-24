@@ -5,7 +5,7 @@ Render frames from the list of numbers and diapasones in the first string of the
 1.0
 
 # Functionality
-Pressing the button in the "TimeLineRender" searches the text block with the list of frames numbers and diapasones.
+Pressing the button in the "TimeLineRender" panel searches the text block with the list of frames numbers and diapasones.
 If this text block does'n exists - it creates the sample text block.
 
 If block exists addon get the first string with frame numbers and diapasones and consistently renders framse from the string.
